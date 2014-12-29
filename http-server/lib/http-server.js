@@ -1,3 +1,5 @@
+require('newrelic');
+
 var fs = require('fs'),
     util = require('util'),
     union = require('union'),
